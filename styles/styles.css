@@ -1,3 +1,7 @@
+:root {
+    --h1-color: darkblue;
+}
+
 main {
     max-width: 840px;
 }
@@ -34,7 +38,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--h1-color);
 }
 
 img {
