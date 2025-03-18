@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #D9F4C7; 
+    --secondary-color: #F8FA90; 
+    --text-color: #3f300b; 
+    --background-color: rgb(142, 214, 142); 
+}
+
+
+h1, h2 {
+    font-family: 'Merriweather', serif;
+    color: var(--primary-color);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: var(--text-color)
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+}
+
+.social-media a img {
+    text-decoration: none;
+    width: 20px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: var(--secondary-color);
+    z-index: 1;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: var(--accent-color);
+    padding: 20px;
+    border-radius: 8px;
+    width: 40%;
+    z-index: 1;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 20px;
+    width: 150px; /* Set image size */
+    height: auto;
+}
+
+article {
+    position: absolute;
+    background-color: #AC9969;
+}
