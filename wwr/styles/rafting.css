@@ -34,13 +34,10 @@ nav {
     align-items: center;
 }
 
-nav li{
-    flex: 1 1 auto;
-}
-
 nav a {
     display: block;
     color: navy;
+    flex: 1 1 auto;
     font-size: 1.2rem;
 }
 
