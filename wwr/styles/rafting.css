@@ -30,7 +30,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    justify-content: center;  /* Esto alinea los enlaces a la derecha */
+    justify-content: center;  
     align-items: center;
 }
 
@@ -99,7 +99,7 @@ a {
 .hero article img {
     float: right;
     margin-left: 20px;
-    width: 150px; /* Set image size */
+    width: 150px; 
     height: auto;
 }
 
