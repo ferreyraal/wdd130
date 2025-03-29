@@ -1,19 +1,14 @@
 :root {
-    --primary-color: #2F5D26; 
-    --secondary-color: #F0D531; 
-    --text-color: #1C1C1C; 
-    --background-color: #428F44
+    --primary-color: #2b8918;
+    --secondary-color: #F0D531;
+    --text-color: #1C1C1C;
+    --background-color: #dfe39e;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Merriweather', serif;
     color: var(--primary-color);
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    color: var(--text-color);
-    background-color: var(--background-color);
 }
 
 header {
@@ -34,7 +29,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    justify-content: center;  
+    justify-content: center;
     align-items: center;
 }
 
@@ -103,7 +98,7 @@ a {
 .hero article img {
     float: right;
     margin-left: 20px;
-    width: 150px; 
+    width: 150px;
     height: auto;
 }
 
@@ -113,33 +108,33 @@ article {
 }
 
 .history {
-    display: grid;                           
-    grid-template-columns: 1fr 1fr 1fr;              
-    grid-template-rows: auto auto;           
-    grid-gap: 20px;  
-    gap: 30px;                             
-    text-align: center;                      
-    padding: 40px;                           
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+    gap: 30px;
+    text-align: center;
+    padding: 40px;
 }
 
-.history h2{
+.history h2 {
     grid-column: 1/4;
 }
 
-.history img{
+.history img {
     width: 200px;
     align-items: center;
     justify-self: center;
 }
 
 .adventure {
-    display: grid;                           
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;              
-    grid-template-rows: auto auto;           
-    grid-gap: 5px;  
-    gap: 10px;                             
-    text-align: center;                      
-    padding: 40px;  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 5px;
+    gap: 10px;
+    text-align: center;
+    padding: 40px;
 }
 
 .adventure h2 {
@@ -153,12 +148,13 @@ article {
 footer {
     display: grid;
     grid-template-columns: 3fr 1fr;
-        
+
 }
 
 .footer-text {
     text-align: center;
 }
+
 .social-media {
     gap: 20px;
 }
