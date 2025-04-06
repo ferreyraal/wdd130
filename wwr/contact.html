@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Us">
+    <meta name="author" content="Alejandro Ferreyra">
+    <title>Down the River Contact</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt= "logo" class = "logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="info">
+            <div>    
+                <h1>Contact US</h1>
+                <h2>Send us a message</h2>
+                <p>White Water Rafting</p>
+                <p>Phone: 555 999-9999</p>
+                <p>Email: <a href="mailto:">sadf</a></p>
+            </div>
+            <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5945.088566981764!2d-68.45181043316774!3d-34.819481911636515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1743892398278!5m2!1ses-419!2sar" width="300" height="220"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="team">
+            <h2>Our Team</h2>
+
+                <figure>
+                    <img src="images/employee1.jpg" alt="Rafting Adventure 1">
+                    <figcaption>CEO</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Rafting Adventure 2">
+                    <figcaption>Adventure Team</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Rafting Adventure 3">
+                    <figcaption>CEF </figcaption>
+                </figure>            
+        </section>
+
+
+
+        <form>
+            <fielset>
+                <legend>Send us a message</legend>
+                <div class="form-item">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item">
+                    <label for="useremail">Email</label>
+                    <input type="text" id="useremail" name="useremail">
+                </div>
+                <div class="form-item">
+                    <p>What is the urpose of your message?</p>
+
+                    <input type="radio" id="general" name="purpose" value="general" required>
+                    <label for="general">General Inquiry</label><br>
+                  
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="reservation">Reservation Question</label><br>
+                  
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                    <label for="suggestion">Website Suggestion</label><br>
+                </div>
+                <div class="form-item">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                </div>
+                <div class="form-item">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your message here"></textarea>
+                </div>
+            </fielset>
+            <button type="submit">Send</button>
+        </form>
+    </main>
+    <footer>
+        <p class="footer-text">&copy; 2025 White Water Rafting Adventures | Created by Alejandro Ferreyra</p>
+        <nav class="social-media">
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
