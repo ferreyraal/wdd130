@@ -57,35 +57,36 @@
         </section>
 
         <form>
+            <fielset>
             <legend>Send us a message</legend>
-            <div class="form-item">
-                <label for="fullname">Full Name</label>
-                <input type="text" id="fullname" name="fullname">
-            </div>
-            <div class="form-item">
-                <label for="useremail">Email</label>
-                <input type="text" id="useremail" name="useremail">
-            </div>
-            <div class="form-item">
-                <p>What is the urpose of your message?</p>
-
-                <input type="radio" id="general" name="purpose" value="general" required>
-                <label for="general">General Inquiry</label><br>
-                
-                <input type="radio" id="reservation" name="purpose" value="reservation">
-                <label for="reservation">Reservation Question</label><br>
-                
-                <input type="radio" id="suggestion" name="purpose" value="suggestion">
-                <label for="suggestion">Website Suggestion</label><br>
-            </div>
-            <div class="form-item">
-                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
-                <input type="checkbox" id="newsletter" name="newsletter">
-            </div>
-            <div class="form-item">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" placeholder="Your message here"></textarea>
-            </div>
+                <div class="form-item">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item">
+                    <label for="useremail">Email</label>
+                    <input type="text" id="useremail" name="useremail">
+                </div>
+            </fielset>
+            <fieldset>
+                <div class="form-item">
+                    <p>What is the urpose of your message?</p>
+                    <input type="radio" id="general" name="purpose" value="general" required>
+                    <label for="general">General Inquiry</label><br>      
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="reservation">Reservation Question</label><br>            
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                    <label for="suggestion">Website Suggestion</label><br>
+                </div>
+                <div class="form-item">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                </div>
+                <div class="form-item">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your message here"></textarea>
+                </div>
+            </fieldset>
             <button type="submit">Send</button>
         </form>
     </main>
